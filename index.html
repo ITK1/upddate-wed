@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kỷ Niệm Hẹn Hò</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Montserrat:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header class="header">
+      <div class="header-overlay"></div>
+      <div class="container">
+        <h1 class="main-title">Kỷ Niệm Hẹn Hò</h1>
+        <div class="couple-container">
+          <div class="person">
+            <div class="avatar-container">
+              <!-- thêm avatar -->
+              <img
+                src="https://scontent.fsgn2-8.fna.fbcdn.net/v/t39.30808-1/476844812_982327253807506_3199495973145819494_n.jpg?stp=dst-jpg_s200x200_tt6&_nc_cat=102&ccb=1-7&_nc_sid=e99d92&_nc_ohc=cv47To-goIQQ7kNvgG-aGdf&_nc_oc=Adkszdxcxt6GSMJGkxZyE-vHpcA2Rek4AfDG520m37TfEE_7O6u-NZKkUnk47JHv0Uw&_nc_zt=24&_nc_ht=scontent.fsgn2-8.fna&_nc_gid=1z_SMHDi7uZBajuVZAm3cQ&oh=00_AYH0GzxyERiUvSKJknnSYTo5XGKEZfO5X9zkdlvmIJdRmw&oe=67EED6B6"
+                alt="Người yêu "
+                class="avatar"
+                id="avatar1"
+              />
+            </div>
+            <!-- đổi tên ở đây -->
+            <div class="name-container">
+              <h2 class="name" id="name1">Bá Khang</h2>
+            </div>
+          </div>
+
+          <div class="heart-container">
+            <i class="fas fa-heart beating-heart"></i>
+          </div>
+
+          <div class="person">
+            <div class="avatar-container">
+              <img
+                src="https://scontent.fsgn2-3.fna.fbcdn.net/v/t39.30808-1/480249934_950268797221019_467254792963588371_n.jpg?stp=dst-jpg_s200x200_tt6&_nc_cat=107&ccb=1-7&_nc_sid=e99d92&_nc_ohc=Sc9N7_lBXEMQ7kNvgFf3pB5&_nc_oc=Adl5DKLXWkEZ0TZQuYfbuxzxHJnIet6yb1spw8MZ_0ZqGcY_LND4RXrBc7gjl6x-1HM&_nc_zt=24&_nc_ht=scontent.fsgn2-3.fna&_nc_gid=1zvTkft3UrCDu4_jR6vyvA&oh=00_AYEsLnhOYDy0InFOk_7VyUKqAJgsyhVVf5oAkver5oMO-w&oe=67EED1AD"
+                alt="Người yêu "
+                class="avatar"
+                id="avatar2"
+              />
+            </div>
+            <!-- đổi tên ở đây  -->
+            <div class="name-container">
+              <h2 class="name" id="name2">Huyền</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Love Counter Section -->
+    <section class="love-counter">
+      <div class="container">
+        <h2 class="section-title">Chúng mình đã yêu nhau được</h2>
+        <div class="counter-container">
+          <div class="counter-item">
+            <span id="days">0</span>
+            <p>Ngày</p>
+          </div>
+          <div class="counter-item">
+            <span id="hours">0</span>
+            <p>Giờ</p>
+          </div>
+          <div class="counter-item">
+            <span id="minutes">0</span>
+            <p>Phút</p>
+          </div>
+          <div class="counter-item">
+            <span id="seconds">0</span>
+            <p>Giây</p>
+          </div>
+        </div>
+        <!-- đổi ngày ở đây -->
+        <p class="love-date">
+          Kể từ ngày
+          <span class="highlight-date" id="startDate">04/12/2021</span>
+          <button
+            id="editDateBtn"
+            class="edit-date-btn"
+            title="Chỉnh sửa ngày bắt đầu"
+          >
+            <i class="fas fa-edit"></i>
+          </button>
+        </p>
+      </div>
+    </section>
+
+    <!-- Our Story Section -->
+    <section class="our-story">
+      <div class="container">
+        <h2 class="section-title">Câu Chuyện Tình Yêu</h2>
+        <div class="story-content">
+          <p>
+            Đây là nơi để kể câu chuyện tình yêu của hai bạn. Hãy viết về cách
+            hai bạn gặp nhau, những kỷ niệm đáng nhớ và tình cảm đặc biệt mà hai
+            bạn dành cho nhau.
+          </p>
+          <p>
+            Tình yêu không phải là nhìn nhau mà là cùng nhìn về một hướng. Chúng
+            mình đã cùng nhau trải qua bao nhiêu kỷ niệm, và sẽ còn nhiều hơn
+            nữa trong tương lai.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- thay ảnh ở đây và thêm ảnh ở đây -->
+    <!-- Gallery Section -->
+    <section class="gallery" id="gallery">
+      <div class="container">
+        <h2 class="section-title">Album Kỷ Niệm</h2>
+        <div class="gallery-actions"></div>
+        <div class="gallery-container">
+          <!-- Mẫu ảnh, sẽ được thay thế bằng ảnh thật -->
+          <div class="gallery-item">
+            <img src="img/lần đầu.jpg" alt="Kỷ niệm 1" />
+            <div class="gallery-overlay">
+              <span>Kỷ niệm đầu tiên</span>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img src="img/cafe.jpg" alt="Kỷ niệm 2" />
+            <div class="gallery-overlay">
+              <span>Chuyến đi chơi</span>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img src="img/cool.jpg" alt="Kỷ niệm 3" />
+            <div class="gallery-overlay">
+              <span>Sinh nhật</span>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img src="img/nắm tay.jpg" alt="Kỷ niệm 4" />
+            <div class="gallery-overlay">
+              <span>Kỷ niệm 100 ngày</span>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img src="img/noeln.jpg" alt="Kỷ niệm 5" />
+            <div class="gallery-overlay">
+              <span>Lễ Giáng sinh</span>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img src="img/sinhnhat.jpg" alt="Kỷ niệm 6" />
+            <div class="gallery-overlay">
+              <span>Valentine</span>
+            </div>
+          </div>
+        </div>
+        <div class="gallery-modal" id="galleryModal">
+          <span class="close-modal" id="closeGalleryModal">&times;</span>
+          <img class="modal-content" id="modalImage" />
+          <div id="caption"></div>
+        </div>
+      </div>
+    </section>
+    <!-- thêm dòng thời gian -->
+    <!-- Timeline Section -->
+    <section class="timeline">
+      <div class="container">
+        <h2 class="section-title">Dòng Thời Gian</h2>
+        <div class="timeline-container">
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">01/01/2023</div>
+            <div class="timeline-content">
+              <h3>Ngày đầu tiên gặp nhau</h3>
+              <p>
+                Mô tả về ngày đầu tiên hai bạn gặp nhau và những cảm xúc đặc
+                biệt.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">14/02/2023</div>
+            <div class="timeline-content">
+              <h3>Valentine đầu tiên</h3>
+              <p>
+                Kỷ niệm Valentine đầu tiên của hai bạn với những món quà và
+                khoảnh khắc đáng nhớ.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">01/04/2023</div>
+            <div class="timeline-content">
+              <h3>Kỷ niệm 100 ngày yêu</h3>
+              <p>
+                Cùng nhau kỷ niệm 100 ngày yêu nhau với những khoảnh khắc ngọt
+                ngào.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">15/12/2023</div>
+            <div class="timeline-content">
+              <h3>Chuyến du lịch đầu tiên</h3>
+              <p>
+                Những kỷ niệm tuyệt vời trong chuyến du lịch đầu tiên của hai
+                bạn.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Love Notes Section -->
+    <section class="love-notes">
+      <div class="container">
+        <h2 class="section-title">Lời Nhắn Yêu Thương</h2>
+        <div class="notes-container">
+          <div class="note-form">
+            <textarea
+              id="noteText"
+              placeholder="Viết lời nhắn yêu thương..."
+            ></textarea>
+            <button id="addNote" class="btn-add-note">
+              Gửi <i class="fas fa-paper-plane"></i>
+            </button>
+          </div>
+          <div class="notes-display" id="notesDisplay">
+            <div class="note">
+              <p class="note-content">Anh/Em yêu em/anh rất nhiều! ❤️</p>
+              <span class="note-date">01/01/2023</span>
+            </div>
+            <div class="note">
+              <p class="note-content">
+                Cảm ơn vì đã luôn ở bên cạnh và yêu thương anh/em!
+              </p>
+              <span class="note-date">15/02/2023</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+      <div class="container">
+        <div class="heart-animation">
+          <i class="fas fa-heart"></i>
+        </div>
+        <p>Tình yêu của chúng mình mãi mãi</p>
+        <p class="copyright">© 2023 Kỷ Niệm Hẹn Hò</p>
+      </div>
+    </footer>
+
+    <!-- Floating Hearts -->
+    <div class="floating-hearts" id="floatingHearts"></div>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+    <script src="js/gallery.js"></script>
+    <script src="js/timeline.js"></script>
+    <script src="js/names.js"></script>
+    <script src="js/gallery-upload.js"></script>
+
+    <script>
+      // Debug script
+      console.log("Debug script loaded");
+
+      // Kiểm tra các phần tử DOM
+      console.log(
+        "Edit Name 1 Button:",
+        document.getElementById("editName1Btn")
+      );
+      console.log(
+        "Edit Name 2 Button:",
+        document.getElementById("editName2Btn")
+      );
+      console.log("Name Modal:", document.getElementById("nameModal"));
+
+      console.log("Add Image Button:", document.getElementById("addImageBtn"));
+      console.log("Image Modal:", document.getElementById("imageModal"));
+
+      // Thêm sự kiện trực tiếp
+      document.getElementById("editName1Btn").onclick = function () {
+        console.log("Edit name 1 clicked directly");
+        document.getElementById("nameModal").style.display = "flex";
+        document.getElementById("nameInput").value =
+          document.getElementById("name1").textContent;
+      };
+
+      document.getElementById("addImageBtn").onclick = function () {
+        console.log("Add image clicked directly");
+        document.getElementById("imageModal").style.display = "flex";
+      };
+    </script>
+  </body>
+</html>
